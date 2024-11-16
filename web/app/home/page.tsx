@@ -38,6 +38,7 @@ export default function Home() {
                     I am an aspiring software engineer who loves to code and build things. <br/>I am currently pursuing my B.Tech in Computer Science and Engineering from IIIT Delhi. I am passionate about web development and have experience in building web applications using React, Next.js, and Tailwind CSS. I am also interested in competitive programming and have a good understanding of data structures and algorithms. I am always eager to learn new technologies and improve my skills. I am looking for opportunities where I can apply my skills and contribute to the growth of the organization.
                 </p>
             </div>
+
             <div className="flex justify-center items-center bg-slate-400">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full bg-gray-400">
                     Hello
@@ -46,6 +47,22 @@ export default function Home() {
                     Hello1
                 </div>
             </div>
+
+            <div className="bg-white-500 p-5">
+                <div className="text-4xl font-bold font-sans mb-3">
+                    Let's Connect
+                </div>
+                
+                <p className="text-xl">
+                Have a project in mind, a question to ask, or just want to chat? <br/>
+                I’m always excited to collaborate and explore new opportunities. <br></br>Let’s connect and make something great together!
+                </p>
+
+                
+            </div>
+
+
+            /* Footer  */
             <div className="bg-gray-900">
                 <footer className="text-left">
                     <p className="text-neutral-400 mb-1 pt-1 pb-1 pl-1 dark:text-neutral-400 text-">© 2024 Anushk Kumar</p>
