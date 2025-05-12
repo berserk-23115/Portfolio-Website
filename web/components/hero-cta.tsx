@@ -7,7 +7,7 @@ function heroCta() {
     <>
       <div className="w-full mx-[133px]">
         <div className="grid grid-cols-2">
-          <div className="">
+          <div className="mt-12">
             <p className={`${insSerif.className} text-8xl`}>Anushk Kumar</p>
             <div className="my-4">
               <p className="text-3xl font-bold">
@@ -79,7 +79,11 @@ function heroCta() {
                 </a>
               </div>
             </div>
+            <div>
+              
+            </div>
           </div>
+
           <div>
             <Image
               width={360}
