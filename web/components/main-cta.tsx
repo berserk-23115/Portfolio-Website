@@ -6,14 +6,17 @@ import { insSerif ,geist} from "../fonts";
 function maincta() {
   return (
     <>
-      <div>
+      <div className="overflow-x-hidden">
         <div
           style={{
             backgroundImage: "url(/backdrop.svg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            width: "100vw",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            width: "100%", 
             height: "100vh",
+            overflow: "hidden",
           }}
         ></div>
         <div className="absolute top-0 left-0 w-full z-10 mt-[33px]">
@@ -103,8 +106,6 @@ function maincta() {
                 </div>
           </div>
         </div>
-
-        
       </div>
     </>
   );
